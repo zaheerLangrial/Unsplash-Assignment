@@ -1,0 +1,52 @@
+{
+  "pics": [
+    {
+      "id": "4k4",
+      "url": "https://cdn2.thecatapi.com/images/4k4.gif",
+      "width": 500,
+      "height": 281
+    },
+    {
+      "id": "43a",
+      "url": "https://cdn2.thecatapi.com/images/43a.jpg",
+      "width": 500,
+      "height": 333
+    },
+    {
+      "id": "6tf",
+      "url": "https://cdn2.thecatapi.com/images/6tf.jpg",
+      "width": 400,
+      "height": 560
+    },
+    {
+      "id": "8m8",
+      "url": "https://cdn2.thecatapi.com/images/8m8.jpg",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "id": "d30",
+      "url": "https://cdn2.thecatapi.com/images/d30.gif",
+      "width": 499,
+      "height": 356
+    },
+    {
+      "id": "MTcxNDAzOQ",
+      "url": "https://cdn2.thecatapi.com/images/MTcxNDAzOQ.jpg",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "id": "cja",
+      "url": "https://cdn2.thecatapi.com/images/cja.jpg",
+      "width": 928,
+      "height": 670
+    },
+    {
+      "id": "61f",
+      "url": "https://cdn2.thecatapi.com/images/61f.gif",
+      "width": 400,
+      "height": 298
+    }
+  ]
+}

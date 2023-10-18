@@ -47,6 +47,18 @@
       "url": "https://cdn2.thecatapi.com/images/61f.gif",
       "width": 400,
       "height": 298
+    },
+    {
+      "id": "a1v",
+      "url": "https://cdn2.thecatapi.com/images/a1v.jpg",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "id": "MTUzMjc1NQ",
+      "url": "https://cdn2.thecatapi.com/images/MTUzMjc1NQ.jpg",
+      "width": 512,
+      "height": 384
     }
   ]
 }

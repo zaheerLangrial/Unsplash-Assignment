@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Nav from "../../Components/NavBar/Nav";
 import 'tailwindcss/tailwind.css';
 import axios from "axios";
+import ActionButton from "../../Components/ActionButton/ActionButton";
 
 function Home() {
     const [data, setData] = useState([]);
@@ -62,7 +63,7 @@ function Home() {
     
 
     const handleDetails = (index: number): void => {
-        // Implement your logic to show details for a cat picture here
+        console.log(index)
     };
 
     const handleAddNewCat = async () => {
@@ -119,30 +120,26 @@ function Home() {
                         />
                         {index === showOptions && (
                             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80 transition-opacity duration-300 hover:opacity-90 flex items-center justify-center">
-                                <button
+                                <ActionButton
                                     onClick={() => handleDownload(item.url)}
-                                    className="text-white md:text-xl bg-gray-800 md:px-4 md:py-2 rounded-lg hover:bg-gray-600 transition-colors duration-300 mr-2"
-                                >
-                                    Download
-                                </button>
-                                <button
+                                    variant = 'transition'
+                                    child = 'Download'
+                                />
+                                <ActionButton
                                     onClick={() => handleDelete(index)}
-                                    className="text-white md:text-xl bg-red-800 px-4 py-2 rounded-lg hover:bg-red-600 transition-colors duration-300 mr-2"
-                                >
-                                    Delete
-                                </button>
-                                <button
+                                    variant = 'red'
+                                    child = 'Download'
+                                />
+                                <ActionButton
                                     onClick={() => handleLike(index)}
-                                    className="text-white md:text-xl bg-blue-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300 mr-2"
-                                >
-                                    Like
-                                </button>
-                                <button
+                                    variant = 'blue'
+                                    child = 'Like'
+                                />
+                                <ActionButton
                                     onClick={() => handleDetails(index)}
-                                    className="text-white md:text-xl bg-green-800 px-4 py-2 rounded-lg hover:bg-green-600 transition-colors duration-300"
-                                >
-                                    Details
-                                </button>
+                                    variant = 'green'
+                                    child = 'Details'
+                                />
                             </div>
                         )}
                     </div>
